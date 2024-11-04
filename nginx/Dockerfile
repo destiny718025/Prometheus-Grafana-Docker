@@ -1,2 +1,2 @@
-FROM nginx:1.21.6  
-COPY ./status.conf /etc/nginx/conf.d/status.conf 
+FROM nginx:1.27.2
+COPY ./status.conf /etc/nginx/conf.d/stfatus.conf
